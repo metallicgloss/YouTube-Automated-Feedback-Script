@@ -32,5 +32,7 @@ NB: I've not submitted this script for one-click install or listing on GreaseMon
 >**A.** Probably not.
 
 ## Limitations
-- Zero to no testing.
+- Extremely limited compatibility testing.
    - This was a super quick script for me to run myself in Chrome, I've not performed any kind of testing for any other browsers, YouTube interfaces outside of the UK, or on different operating systems. Sorry!
+- Unable to target watched videos without watchbar.
+   - Continuing on the topic of YouTube's irritating behaviour and bad user experience; it is often experienced that YouTube 'forgets' a video has been watched when it goes too far down your account watch history. When this happens, the video may re-appear on your recommendations page but without a playbar (or any indication you've watched it). This script doesn't go in-depth enough to try to match titles against account history, so when YouTube derps out, this script can't submit the feedback.
